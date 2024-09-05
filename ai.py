@@ -10,14 +10,14 @@ chatbot = ChatBot(
         'chatterbot.logic.BestMatch',
         'chatterbot.logic.TimeLogicAdapter',
         'chatterbot.logic.MathematicalEvaluation',
-        # Add more logic adapters here
         'chatterbot.logic.UnitConversion',
-        'chatterbot.logic.SpecificResponseAdapter'
+        'chatterbot.logic.SpecificResponseAdapter',
+        # Add more logic adapters here
     ],
     preprocessors=[
         'chatterbot.preprocessors.clean_whitespace',
+        'chatterbot.preprocessors.convert_to_ascii',
         # Add more preprocessors here
-        'chatterbot.preprocessors.convert_to_ascii'
     ],
     read_only=True
 )
@@ -36,9 +36,9 @@ custom_conversations = [
     "I'm doing great, thank you!",
     "What's your name?",
     "I'm AdvancedBot, your friendly AI assistant.",
-    # Add more custom conversations here
     "What can you do?",
-    "I can chat with you, perform calculations, and provide information."
+    "I can chat with you, perform calculations, and provide information.",
+    # Add more custom conversations here
 ]
 
 # Create a ListTrainer and train with custom conversations
