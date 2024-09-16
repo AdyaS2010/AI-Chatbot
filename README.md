@@ -38,6 +38,10 @@ To start the chatbot, run the following command:
 npm start
 ```
 
+![image](https://github.com/user-attachments/assets/04ce108f-a2c8-47e3-ac8a-c39128b77d91)
+
+*As you can see before, using a different approach, manually storing potential prompts and responses in a dictionary, the AI is able to 'interact' with the user in a way (randomized order of predetermined response according to predefined prompt sets)!* 
+
 ## Usage
 
 Once the chatbot is running, you can interact with it through the provided interface. Simply type your questions or commands, and the chatbot will respond accordingly (yay)!!! 
